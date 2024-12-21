@@ -1,0 +1,16 @@
+[workspace]
+members = []
+resolver = "2"
+
+[workspace.package]
+authors = ["Michel Novus"]
+description = "Omnipresent Instant Translator for desktop."
+edition = "2021"
+repository = "https://github.com/michelnovus/oit"
+license = "GPL-3.0"
+publish = false
+
+[workspace.dependencies]
+anyhow = "1.0.94"
+isolang = "2.4.0"
+getset = "0.1.3"
